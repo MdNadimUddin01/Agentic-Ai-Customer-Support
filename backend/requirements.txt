@@ -1,0 +1,69 @@
+# Core Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# LangChain and AI
+langchain==0.1.20
+langchain-google-genai==0.0.11
+langchain-community==0.0.38
+google-generativeai==0.4.1
+
+# Database
+pymongo==4.6.1
+motor==3.3.2  # Async MongoDB driver
+
+# Vector Store
+sentence-transformers==2.3.1
+numpy==1.24.3
+
+# API Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+websockets==12.0
+
+# HTTP Client
+httpx==0.26.0
+requests==2.31.0
+
+# Redis for caching
+redis==5.0.1
+aioredis==2.0.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Integrations
+twilio==8.11.0
+stripe==7.11.0
+
+# Logging
+loguru==0.7.2
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.26.0  # For testing FastAPI
+
+# Development
+black==23.12.1
+ruff==0.1.9
+mypy==1.8.0
+pre-commit==3.6.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.3
